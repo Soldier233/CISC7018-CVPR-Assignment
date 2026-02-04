@@ -78,8 +78,7 @@ class FeatureMatcher:
             else:
                 bf = cv2.BFMatcher(self.norm_type, crossCheck=True)
                 matches = bf.match(des1, des2)
-                # ORB按距离排序，只取前100个避免画面太乱，或者取全部看效果
-                good_matches = sorted(matches, key=lambda x: x.distance)[:100]
+                good_matches = sorted(matches, key=lambda x: x.distance)
 
         t_total = time.time() - t0
 

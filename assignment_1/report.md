@@ -20,9 +20,11 @@ The following chart summarizes the performance of SIFT and ORB in terms of keypo
 
 ![Feature Extraction Comparison](img/diff.png)
 
-In this case, ORB shows bad performance in terms of keypoints detected, no matter the similarity between images. However, ORB is significantly faster than SIFT, making it more suitable for real-time applications where speed is crucial.
+In this case, ORB shows better performance in terms of keypoints detected. And it is significantly faster than SIFT, making it more suitable for real-time applications where speed is crucial.
 
-The performance of SIFT is much better than ORB in terms of keypoints detected, especially when the images are similar. However, SIFT is slower compared to ORB. Especially when the images are less similar, the number of keypoints detected by SIFT decreases, but it still outperforms ORB in general.
+The performance of SIFT is better than ORB in terms of keypoints detected, only when the images are almost the same. Generally, SIFT is slower compared to ORB. When the images are less similar, the number of keypoints detected by SIFT decreases significantly, making it less effective in such scenarios.
+
+Above all, ORB is a more efficient choice for feature extraction in most scenarios, especially when dealing with images that have significant variations.
 
 
 ## Visual Comparison
