@@ -1,0 +1,6 @@
+Assignment 4: PCA and LDA on Digits
+Samples: 1797 | Features: 64
+Baseline kNN acc (raw pixels): 0.9722
+PCA best: dim=30, acc=0.9759
+LDA best: dim=9, acc=0.9685
+PCA components for >=95% variance: 39

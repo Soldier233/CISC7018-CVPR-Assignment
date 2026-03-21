@@ -5,3 +5,4 @@ assignment_2/data_cifar10
 assignment_2/img
 /assignment_3/data_toy/
 __pycache__
+.DS_Store
