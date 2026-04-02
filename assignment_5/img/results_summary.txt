@@ -1,0 +1,10 @@
+Assignment 5: Support Vector Machine Chains (SVMC)
+Random seed: 42
+Train size: 1257
+Test size: 540
+Single SVM accuracy: 0.9796
+SVMC majority-vote accuracy: 0.9852
+SVMC tournament-vote accuracy: 0.9870
+Best stage feature count: 48
+Best stage ensemble accuracy: 0.9907
+Top-10 MI-ranked feature indices: [34, 61, 21, 26, 42, 30, 33, 38, 36, 54]
