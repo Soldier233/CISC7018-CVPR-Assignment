@@ -1,0 +1,14 @@
+Assignment 6 Results Summary
+Seed: 42
+Epochs: 25
+Batch size: 64
+Learning rate: 0.001
+Noise std: 0.35
+
+Classification
+Baseline accuracy (logistic regression): 0.9648
+CNN test accuracy: 0.8926
+
+Denoising
+Autoencoder test MSE: 0.029373
+Autoencoder test PSNR: 15.3205 dB
